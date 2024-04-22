@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2417d95f95.js" crossorigin="anonymous"></script>
+    <title>Log in</title>
+<style>
+body{
+    background-color: rgb(38, 110, 103) ;
+}
+form{
+    padding: 50px;
+    width: 500px;
+    height: 35  0px;
+    background-color: rgb(255, 255, 255);
+    margin: 130px 350px;
+    box-sizing: border-box;
+    color:white;    
+    border-radius: 10px;
+}
+.heading{
+    color: black;
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size: larger;
+    padding: 10px;
+    width:95%;
+    color: white;
+    background-color: rgb(29, 82, 77);
+}
+input[type="text"]{
+    padding: 12px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    color: black;
+}
+input:focus{
+    background-color: rgb(188, 188, 188);
+}
+input[type="password"]{
+    padding: 12px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-align: right;
+    font-size: small;
+    margin-top: 5px;
+    color:black
+}
+label{
+    color: black;
+}
+input[type="submit"]{
+    background-color:rgb(29, 82, 77);
+    width: 100%;    
+    font-family: Calibri;
+    margin-top: 15px;
+    border: white;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+    
+<div class="form">
+    <form>
+        <div class="heading"><strong>Login Form</strong></div>
+        <input type="text" id="username" placeholder="Username" required><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <label>
+        <input type="checkbox" checked="checked" > Remember me
+        </label><br><br>
+        <i><a href="#"> Forgot password?</a></i>
+        <input type="submit" value="Login">
+    </form>
+</div>
+
+</body>
+</html>

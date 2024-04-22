@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);;
+    font-family: Calibri;
+    font-size: medium;
+}
+form{
+    padding: 50px;
+    width: 750px;
+    height: 950px;
+    background-color: rgb(23, 50, 73);
+    margin: 30px 230px;
+    box-sizing: border-box;
+    color:white;    
+    float: left;
+}
+.heading{
+    text-align: center;
+    font-family: Calibiri;
+    font-size: 25px;
+}
+h1 {
+   font-family: Calibri;
+   font-size: large; 
+}
+input {
+    width:100%;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    margin: 8px;
+}
+input[type="address"]{
+
+}
+input[type="radio"]{
+    width: 5%;
+}
+input[type="submit"]{
+    background-color:white;
+    width: 30%;
+    float:right;
+    font-family: Calibri;
+    border: white;
+    border-radius: 5px;
+}
